@@ -31,7 +31,9 @@ const About = () => {
           <span>Place :</span>Lalru, Chandigarh, Punjab, India - 140501
         </p>
         <div>
-        <button className="btn">Resume <i class="fa-solid fa-angles-right fa-sm"></i></button>
+        <button className="btn">
+        <a href='https://drive.google.com/file/d/1TgWSWGiOmGBzimh57ylRIxa3Au1q-QCl/view?usp=drive_link'>
+        Resume <i class="fa-solid fa-angles-right fa-sm"></i></a></button>
       </div>
       </div>
      

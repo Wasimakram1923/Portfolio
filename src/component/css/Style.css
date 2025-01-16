@@ -87,33 +87,47 @@ header .logo {
   font-size: 2rem;
   font-weight: 800;
   text-decoration: none;
-  color: #0e2431;
+  color: #0d0d0d;
   padding: 1px;
-}
-
-.logo {
-    height: 4.5em;
-   justify-content: center;
-    display: flex;
-    align-items: center;
-    will-change: filter;
-    transition: filter 300ms;
+  height: 4.5em;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  will-change: filter;
+  transition: filter 300ms;
 }
 
 .logo a {
   height: 4.5em;
+  color: black;
  justify-content: center;
   display: flex;
   margin-right: 10px;
   align-items: center;
   will-change: filter;
   transition: filter 300ms;
+  text-decoration: none;
+}
+
+.logo img{
+  height: 2.5em;
+ justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-right: -10px;
+  filter: drop-shadow(0 0 0rem rgb(0, 0, 0));
 }
 
 header .logo  {
   font-size: 2.1rem;
 }
-header .logo:hover {
+ 
+.logo img:hover{
+  filter: drop-shadow(0 0 0.5rem #fc8c05);
+}
+
+header .logo a:hover {
   color: #fc8c05;
 }
 header .navbar ul {
@@ -624,12 +638,11 @@ header .navbar ul li a:hover {
 }
 
 #about .detail .btn{
-  margin-top: 20px;
+    margin-top: 20px;
     line-height: 0;
-    padding: 18px 20px;
+    padding: 18px 13px;
     border-radius: 4em;
     transition: 0.5s;
-    color: #fff;
     background: #2506ad;
     box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
     font-family: "Nunito", sans-serif;
@@ -638,20 +651,26 @@ header .navbar ul li a:hover {
     align-items: center;
 }
 
+#about .detail .btn a{
+  color: #fff;
+  text-decoration: none;
+  margin: 2px;
+}
+
 #about .detail .btn i{
-  margin-left: 1px;
+  margin-left: -1px;
   font-size: 18px;
   transition: .3s;
 }
 
 #about .detail .btn:hover {
-  background: #2e05e3;
+  background: #2a05cf;
   transform: scale(1.02);
   box-shadow: 0px 10px 18px rgba(25, 14, 237, 0.6);
 }
 
 #about .detail .btn:hover i{
-  transform: translateX(8px);
+  transform: translateX(5px);
 }
 
 /*----------------- about section ebd --------------*/

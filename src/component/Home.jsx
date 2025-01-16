@@ -12,9 +12,11 @@ const Home = () => {
   return (
     <>
     <header>
-    <a href="/" className="logo">
+    <div className="logo">
+    <a href="/" >
+    <img src="src\image\logo.png"></img>
       Wasim Akram {""}
-    </a>
+    </a></div>
     <div id="menu" ><i class="fas fa-bars"></i></div>
       <nav className="navbar">
         <ul>
