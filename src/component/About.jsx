@@ -24,11 +24,11 @@ const About = () => {
           Full-Stack clones.
         </p>
         <p>
-          <span>Email :</span>
+          <span>Email:</span>
           <a href="mailto:akramwasim19799@gmail">akramwasim19799@gmail </a>
         </p>
         <p>
-          <span>Place :</span>Lalru, Chandigarh, Punjab, India - 140501
+          <span>Place:</span>Lalru, Chandigarh, Punjab, India - 140501
         </p>
         <div>
         <button className="btn">

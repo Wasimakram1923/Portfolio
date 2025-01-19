@@ -33,7 +33,7 @@ const Home = () => {
     </header>
       <section id="home">
       <div className="info">
-          <h3>Hi! <span>There...</span></h3>
+          <h3>Hi! There...</h3>
           <h1>I'm MD Wasim <span>Akram</span></h1>
           <h2>And I'm a <span>Frontend Developer</span></h2>
           <a href="#about" className="btn"><span>About Me</span>

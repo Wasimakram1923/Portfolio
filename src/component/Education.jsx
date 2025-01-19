@@ -34,11 +34,11 @@ const Education = () => {
 
         <div className="college">
           <div className="img">
-          <img src="src\images\School.jpg" alt=""/>
+          <img src="src\images\School.png" alt=""/>
           </div>
           <div className="content">
             <h2>Secondary Education (+1 & +2)</h2>
-            <p>CBSE</p>
+            <p>St. Attri Senior Secondary Public School | CBSE</p>
             <h3>2017-2019 | Completed</h3>
           </div>
         </div>
